@@ -1,0 +1,171 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! Need any help?", "Hey! What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Talk to you soon"],
+      "responses": ["Goodbye! Take care.", "See you later!", "Talk to you soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot"],
+      "responses": ["You're welcome!", "Glad to help!", "Anytime!"]
+    },
+    {
+      "tag": "symptom_checker",
+      "patterns": [
+        "I have a headache and nausea",
+        "Why am I coughing so much?",
+        "I'm feeling dizzy and weak",
+        "What could it be if I have chest pain?",
+        "My stomach hurts, what's wrong?"
+      ],
+      "responses": ["Let me analyze your symptoms. It’s best to consult a doctor for proper diagnosis."]
+    },
+    {
+      "tag": "book_appointment",
+      "patterns": [
+        "Book an appointment",
+        "Schedule a check-up",
+        "Can I see a doctor tomorrow?",
+        "Book an appointment with Dr. Sharma",
+        "I need to visit a dermatologist"
+      ],
+      "responses": ["Sure! Please provide the date and time you prefer for the appointment."]
+    },
+    {
+      "tag": "medication_reminder",
+      "patterns": [
+        "Remind me to take my pills",
+        "Set a reminder for my medicine",
+        "Remind me to take insulin at 7 PM",
+        "Daily medicine reminder"
+      ],
+      "responses": ["Got it! I’ll remind you to take your medicine on time."]
+    },
+    {
+      "tag": "prescription_refill",
+      "patterns": [
+        "Refill my prescription",
+        "I need more of my BP meds",
+        "Can I get a refill on my diabetes medicine?",
+        "Resend my medicine prescription"
+      ],
+      "responses": ["Prescription refill request noted. We’ll process it shortly."]
+    },
+    {
+      "tag": "lab_results",
+      "patterns": [
+        "Explain my blood test",
+        "What does my CBC result mean?",
+        "Interpret my MRI result",
+        "What is the meaning of my X-ray report?"
+      ],
+      "responses": ["Please upload your lab report or provide details for interpretation."]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": [
+        "How to control cholesterol?",
+        "Give me health tips for asthma",
+        "What diet should I follow for diabetes?",
+        "Tips for healthy living"
+      ],
+      "responses": ["Drink more water, eat fresh veggies, and stay active!", "Maintain a balanced diet and exercise regularly."]
+    },
+    {
+      "tag": "insurance_help",
+      "patterns": [
+        "Is this covered by insurance?",
+        "Explain my medical bill",
+        "Do I have to pay for this treatment?",
+        "Help with insurance claim"
+      ],
+      "responses": ["Let me help you check your insurance coverage details."]
+    },
+    {
+      "tag": "find_hospital",
+      "patterns": [
+        "Where is the nearest hospital?",
+        "Find a clinic near me",
+        "Locate urgent care nearby",
+        "Show nearby doctors"
+      ],
+      "responses": ["Here are some nearby hospitals and clinics."]
+    },
+    {
+      "tag": "doctor_info",
+      "patterns": [
+        "Tell me about Dr. Raj",
+        "What does Dr. Sharma specialize in?",
+        "Doctor details",
+        "Find a cardiologist"
+      ],
+      "responses": ["Dr. Raj is a general physician. Dr. Sharma specializes in dermatology."]
+    },
+    {
+      "tag": "vaccination_info",
+      "patterns": [
+        "Do I need a flu shot?",
+        "When is my next COVID booster?",
+        "Vaccination details",
+        "Is hepatitis vaccine necessary?"
+      ],
+      "responses": ["Let me check your vaccination history and upcoming schedule."]
+    },
+    {
+      "tag": "emergency_help",
+      "patterns": [
+        "I can't breathe",
+        "I'm having chest pain",
+        "Call for emergency help",
+        "I need urgent medical help"
+      ],
+      "responses": ["Please call emergency services immediately or go to the nearest hospital."]
+    },
+    {
+      "tag": "mental_health_support",
+      "patterns": [
+        "I'm feeling very anxious",
+        "Help with stress",
+        "Can I talk to a counselor?",
+        "Mental health advice"
+      ],
+      "responses": ["You’re not alone. I’m here for you. Would you like to speak to a counselor?"]
+    },
+    {
+      "tag": "diet_plan",
+      "patterns": [
+        "Give me a diet plan for diabetes",
+        "What should I eat for weight loss?",
+        "Healthy diet chart",
+        "Diet advice for PCOS"
+      ],
+      "responses": ["Here’s a personalized diet plan. Please consult a dietitian for more details."]
+    },
+    {
+      "tag": "exercise_recommendation",
+      "patterns": [
+        "What exercises are good for back pain?",
+        "Yoga for asthma?",
+        "Workout tips for heart health",
+        "Exercise plan for thyroid"
+      ],
+      "responses": ["Try gentle yoga, regular walks, and breathing exercises. Want a custom plan?"]
+    },
+    {
+      "tag": "language_change",
+      "patterns": [
+        "Change language to Hindi",
+        "I want to use it in Tamil",
+        "Switch to Bengali",
+        "Use in local language"
+      ],
+      "responses": ["Language updated successfully.", "Switched to your preferred language."]
+    }
+  ]
+}
